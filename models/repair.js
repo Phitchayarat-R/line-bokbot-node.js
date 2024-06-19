@@ -14,7 +14,7 @@ const Repair = sequelize.define(
     detail: DataTypes.TEXT, 
     repair_by: DataTypes.STRING, 
     repair_phone: DataTypes.STRING,
-    finished_date: DataTypes.DATEONLY, 
+    finished_date: DataTypes.DATE, 
     repair_status:{
       type: DataTypes.ENUM,
       values: ['รอรับเรื่อง','กำลังดำเนินการ','เสร็จสิ้น' ],
