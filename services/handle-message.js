@@ -16,9 +16,8 @@ exports.handleMessage = async (event) => {
     const profile = await client.getProfile(userId); 
 
     if (msgFromUser === "แจ้งเรื่องใหม่") {
-
             const user = await userService.getUserPhoneNumber(userId);
-            //await deleteRepairFormUnCompleted(event.source.userId);
+            await deleteRepairFormUnCompleted(event.source.userId);
             if (user && user.user_phone) {
                 msg = botSendCamera();
             } else {
@@ -30,7 +29,6 @@ exports.handleMessage = async (event) => {
         msg = { type: "text", text: "เลือกเมนูด้านล่าง เพื่อเริ่มต้นใช้งานได้เลยค่ะ" };
     } 
     else if (msgFromUser === "เช็คสถานะ") {
-        //await deleteRepairFormUnCompleted(event.source.userId);
         const repairForms = await findAllRepairFormByUser(event.source.userId);
         if (!repairForms || repairForms.length === 0) {
             msg = { type: "text", text: "ยังไม่มีรายการแจ้งซ่อมให้ติดตามค่ะ" };
@@ -39,7 +37,6 @@ exports.handleMessage = async (event) => {
         }
     }
     else if (msgFromUser === "แก้ไขโปรไฟล์") {
-        //await deleteRepairFormUnCompleted(event.source.userId);
         msg = { type: "text", text: "กรุณาพิมพ์หมายเลขโทรศัพท์ของคุณ เพื่ออัปเดตข้อมูลใหม่ค่ะ" };
     } 
     else if (msgFromUser === "เช็คฝุ่น PM2.5") {
