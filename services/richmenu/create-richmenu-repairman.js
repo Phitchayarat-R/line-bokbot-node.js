@@ -22,7 +22,7 @@ exports.createRichMenuRepairman = async (userId) => {
         },
         action: {
           type: "uri",
-          uri: "https://www.appsheet.com/start/373feb9e-b054-4c65-a5a0-6e76bf57f830#appName=MMS-905028619-24-01-06-2&group=%5B%7B%22Column%22%3A%22repair_status%22%2C%22Order%22%3A%22Ascending%22%7D%5D&sort=%5B%5D&table=repairs&view=%E0%B8%A3%E0%B8%B2%E0%B8%A2%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%88%E0%B9%89%E0%B8%87%E0%B8%8B%E0%B9%88%E0%B8%AD%E0%B8%A1",
+          uri: "https://www.appsheet.com/start/af3259bb-aaa5-4198-8ebf-3f460c4909be#appName=BOKBOT%E0%B9%80%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%97%E0%B8%B5%E0%B9%88-905028619&group=%5B%7B%22Column%22%3A%22repair_status%22%2C%22Order%22%3A%22Ascending%22%7D%5D&sort=%5B%5D&table=repairs&view=%E0%B8%A3%E0%B8%B2%E0%B8%A2%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%88%E0%B9%89%E0%B8%87%E0%B8%8B%E0%B9%88%E0%B8%AD%E0%B8%A1",
         },
       },
       {
@@ -34,7 +34,7 @@ exports.createRichMenuRepairman = async (userId) => {
         },
         action: {
           type: "uri",
-          uri: "https://www.appsheet.com/start/373feb9e-b054-4c65-a5a0-6e76bf57f830#appName=MMS-905028619-24-01-06-2&sort=%5B%5D&table=repairs&view=%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%A3%E0%B8%B2%E0%B8%A2%E0%B8%81%E0%B8%B2%E0%B8%A3",
+          uri: "https://www.appsheet.com/start/af3259bb-aaa5-4198-8ebf-3f460c4909be#appName=BOKBOT%E0%B9%80%E0%B8%88%E0%B9%89%E0%B8%B2%E0%B8%AB%E0%B8%99%E0%B9%89%E0%B8%B2%E0%B8%97%E0%B8%B5%E0%B9%88-905028619&sort=%5B%5D&table=repairs&view=%E0%B8%AA%E0%B8%A3%E0%B8%B8%E0%B8%9B%E0%B8%A3%E0%B8%B2%E0%B8%A2%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%88%E0%B9%89%E0%B8%87%E0%B8%8B%E0%B9%88%E0%B8%AD%E0%B8%A1",
         },
       },
       {
